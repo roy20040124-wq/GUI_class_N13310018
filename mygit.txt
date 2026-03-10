@@ -1,0 +1,11 @@
+git clone https://github.com/roy20040124-wq/GUI_class_N13310018.git
+
+git add .
+
+git config --global user.email "20040124@gmail.com"
+git config --global user.name "roy20040124"
+
+git commit -m "20260310"
+
+git push -u origin main
+
