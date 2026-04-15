@@ -50,5 +50,11 @@ namespace N13310018
             label2.Text = STR;
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            String count = lab_Counter.Text;
+            int sum = Int32.Parse(count)-1;
+            lab_Counter.Text = sum.ToString();
+        }
     }
 }
