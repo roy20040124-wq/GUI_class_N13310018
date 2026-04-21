@@ -39,6 +39,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnCalculator = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -118,7 +119,7 @@
             // btnBigger
             // 
             this.btnBigger.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.btnBigger.Location = new System.Drawing.Point(59, 336);
+            this.btnBigger.Location = new System.Drawing.Point(191, 216);
             this.btnBigger.Name = "btnBigger";
             this.btnBigger.Size = new System.Drawing.Size(175, 72);
             this.btnBigger.TabIndex = 6;
@@ -160,7 +161,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(393, 225);
+            this.button2.Location = new System.Drawing.Point(393, 216);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(121, 63);
             this.button2.TabIndex = 10;
@@ -168,11 +169,24 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // btnCalculator
+            // 
+            this.btnCalculator.BackColor = System.Drawing.Color.Gold;
+            this.btnCalculator.ForeColor = System.Drawing.Color.Brown;
+            this.btnCalculator.Location = new System.Drawing.Point(75, 307);
+            this.btnCalculator.Name = "btnCalculator";
+            this.btnCalculator.Size = new System.Drawing.Size(156, 67);
+            this.btnCalculator.TabIndex = 11;
+            this.btnCalculator.Text = "計算機";
+            this.btnCalculator.UseVisualStyleBackColor = false;
+            this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCalculator);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
@@ -205,6 +219,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCalculator;
     }
 }
 
