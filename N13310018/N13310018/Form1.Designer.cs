@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.btnCalculator = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -173,7 +174,7 @@
             // 
             this.btnCalculator.BackColor = System.Drawing.Color.Gold;
             this.btnCalculator.ForeColor = System.Drawing.Color.Brown;
-            this.btnCalculator.Location = new System.Drawing.Point(75, 307);
+            this.btnCalculator.Location = new System.Drawing.Point(118, 306);
             this.btnCalculator.Name = "btnCalculator";
             this.btnCalculator.Size = new System.Drawing.Size(156, 67);
             this.btnCalculator.TabIndex = 11;
@@ -181,11 +182,24 @@
             this.btnCalculator.UseVisualStyleBackColor = false;
             this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click);
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Gold;
+            this.button3.ForeColor = System.Drawing.Color.Brown;
+            this.button3.Location = new System.Drawing.Point(307, 318);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(156, 67);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "期中考";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.btnCalculator);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
@@ -220,6 +234,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnCalculator;
+        private System.Windows.Forms.Button button3;
     }
 }
 
