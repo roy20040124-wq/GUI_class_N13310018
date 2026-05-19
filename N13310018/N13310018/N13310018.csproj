@@ -70,6 +70,12 @@
     <Compile Include="FormMidC2F.Designer.cs">
       <DependentUpon>FormMidC2F.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTimer2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTimer2.Designer.cs">
+      <DependentUpon>FormTimer2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMidC2F.resx">
       <DependentUpon>FormMidC2F.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimer2.resx">
+      <DependentUpon>FormTimer2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -66,5 +66,10 @@ namespace N13310018
         {
             new FormMidC2F().Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new FormTimer2().Show();
+        }
     }
 }
