@@ -24,5 +24,28 @@ namespace N13310018
             labelCounter.Text=counter.ToString()+"秒";
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            timer2.Enabled = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            timer2.Enabled = false;
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            int counter = Int32.Parse(labTimer.Text.Replace("秒", ""));
+            counter+=1;
+           labTimer.Text=counter.ToString()+"秒";
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            labTimer.Text = "0秒";
+        }
     }
 }
