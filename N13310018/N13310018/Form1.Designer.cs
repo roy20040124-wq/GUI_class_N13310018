@@ -42,6 +42,8 @@
             this.btnCalculator = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -60,7 +62,7 @@
             this.btn_ClickMe.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btn_ClickMe.Font = new System.Drawing.Font("微軟正黑體", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_ClickMe.ForeColor = System.Drawing.Color.Gold;
-            this.btn_ClickMe.Location = new System.Drawing.Point(608, 386);
+            this.btn_ClickMe.Location = new System.Drawing.Point(524, 283);
             this.btn_ClickMe.Name = "btn_ClickMe";
             this.btn_ClickMe.Size = new System.Drawing.Size(180, 52);
             this.btn_ClickMe.TabIndex = 1;
@@ -72,7 +74,7 @@
             // 
             this.btn_ChangeLabel.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btn_ChangeLabel.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btn_ChangeLabel.Location = new System.Drawing.Point(59, 133);
+            this.btn_ChangeLabel.Location = new System.Drawing.Point(38, 130);
             this.btn_ChangeLabel.Name = "btn_ChangeLabel";
             this.btn_ChangeLabel.Size = new System.Drawing.Size(127, 47);
             this.btn_ChangeLabel.TabIndex = 2;
@@ -86,7 +88,7 @@
             this.lab_ChangLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.lab_ChangLabel.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lab_ChangLabel.ForeColor = System.Drawing.Color.IndianRed;
-            this.lab_ChangLabel.Location = new System.Drawing.Point(244, 150);
+            this.lab_ChangLabel.Location = new System.Drawing.Point(181, 135);
             this.lab_ChangLabel.Name = "lab_ChangLabel";
             this.lab_ChangLabel.Size = new System.Drawing.Size(74, 27);
             this.lab_ChangLabel.TabIndex = 3;
@@ -98,7 +100,7 @@
             this.lab_Counter.BackColor = System.Drawing.Color.SaddleBrown;
             this.lab_Counter.Font = new System.Drawing.Font("Vivaldi", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lab_Counter.ForeColor = System.Drawing.Color.Gold;
-            this.lab_Counter.Location = new System.Drawing.Point(515, 163);
+            this.lab_Counter.Location = new System.Drawing.Point(619, 82);
             this.lab_Counter.Name = "lab_Counter";
             this.lab_Counter.Size = new System.Drawing.Size(27, 32);
             this.lab_Counter.TabIndex = 5;
@@ -109,7 +111,7 @@
             this.btn_Counter.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btn_Counter.Font = new System.Drawing.Font("新細明體", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_Counter.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.btn_Counter.Location = new System.Drawing.Point(561, 225);
+            this.btn_Counter.Location = new System.Drawing.Point(661, 117);
             this.btn_Counter.Name = "btn_Counter";
             this.btn_Counter.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.btn_Counter.Size = new System.Drawing.Size(127, 64);
@@ -121,7 +123,7 @@
             // btnBigger
             // 
             this.btnBigger.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.btnBigger.Location = new System.Drawing.Point(191, 216);
+            this.btnBigger.Location = new System.Drawing.Point(279, 117);
             this.btnBigger.Name = "btnBigger";
             this.btnBigger.Size = new System.Drawing.Size(175, 72);
             this.btnBigger.TabIndex = 6;
@@ -132,7 +134,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("新細明體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox1.Location = new System.Drawing.Point(450, 46);
+            this.textBox1.Location = new System.Drawing.Point(401, 46);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(146, 33);
             this.textBox1.TabIndex = 7;
@@ -140,7 +142,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(608, 18);
+            this.button1.Location = new System.Drawing.Point(553, 18);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(174, 61);
             this.button1.TabIndex = 8;
@@ -154,7 +156,7 @@
             this.label2.BackColor = System.Drawing.SystemColors.ControlText;
             this.label2.Font = new System.Drawing.Font("新細明體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label2.Location = new System.Drawing.Point(446, 18);
+            this.label2.Location = new System.Drawing.Point(401, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 19);
             this.label2.TabIndex = 9;
@@ -163,7 +165,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(393, 216);
+            this.button2.Location = new System.Drawing.Point(502, 117);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(121, 63);
             this.button2.TabIndex = 10;
@@ -175,7 +177,7 @@
             // 
             this.btnCalculator.BackColor = System.Drawing.Color.Gold;
             this.btnCalculator.ForeColor = System.Drawing.Color.Brown;
-            this.btnCalculator.Location = new System.Drawing.Point(118, 306);
+            this.btnCalculator.Location = new System.Drawing.Point(38, 210);
             this.btnCalculator.Name = "btnCalculator";
             this.btnCalculator.Size = new System.Drawing.Size(156, 67);
             this.btnCalculator.TabIndex = 11;
@@ -187,7 +189,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Gold;
             this.button3.ForeColor = System.Drawing.Color.Brown;
-            this.button3.Location = new System.Drawing.Point(307, 318);
+            this.button3.Location = new System.Drawing.Point(200, 210);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(156, 67);
             this.button3.TabIndex = 12;
@@ -199,7 +201,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Gold;
             this.button4.ForeColor = System.Drawing.Color.Brown;
-            this.button4.Location = new System.Drawing.Point(469, 318);
+            this.button4.Location = new System.Drawing.Point(362, 210);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(156, 67);
             this.button4.TabIndex = 13;
@@ -207,11 +209,37 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Gold;
+            this.button5.ForeColor = System.Drawing.Color.Brown;
+            this.button5.Location = new System.Drawing.Point(524, 210);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(156, 67);
+            this.button5.TabIndex = 14;
+            this.button5.Text = "check";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Gold;
+            this.button6.ForeColor = System.Drawing.Color.Brown;
+            this.button6.Location = new System.Drawing.Point(362, 278);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(156, 67);
+            this.button6.TabIndex = 15;
+            this.button6.Text = "Layout";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnCalculator);
@@ -250,6 +278,8 @@
         private System.Windows.Forms.Button btnCalculator;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
