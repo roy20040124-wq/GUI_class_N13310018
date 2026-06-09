@@ -13,3 +13,5 @@ C:\Users\MEGAS\Desktop\GUI_class_N13310018\N13310018\N13310018\obj\Debug\N133100
 C:\Users\MEGAS\Desktop\GUI_class_N13310018\N13310018\N13310018\obj\Debug\N13310018.FormMidC2F.resources
 C:\Users\MEGAS\Desktop\GUI_class_N13310018\N13310018\N13310018\obj\Debug\N13310018.FormTimer2.resources
 C:\Users\MEGAS\Desktop\GUI_class_N13310018\N13310018\N13310018\obj\Debug\N13310018.FormCheckBox.resources
+C:\Users\MEGAS\Desktop\GUI_class_N13310018\N13310018\N13310018\obj\Debug\N13310018.FormLayout.resources
+C:\Users\MEGAS\Desktop\GUI_class_N13310018\N13310018\N13310018\obj\Debug\N13310018.FormOderMenu.resources

@@ -81,5 +81,10 @@ namespace N13310018
         {
             new FormLayout().Show();
         }
+
+        private void btnOderMenu_Click(object sender, EventArgs e)
+        {
+            new FormOderMenu().Show();
+        }
     }
 }
