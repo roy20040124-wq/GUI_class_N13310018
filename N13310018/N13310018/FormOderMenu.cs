@@ -25,7 +25,7 @@ namespace N13310018
         private void btnsendoder_Click(object sender, EventArgs e)
         {
             
-            foreach (Control c in panel12.Controls)
+            foreach (Control c in panel2.Controls)
             {
                 if(c is CheckBox) 
                 {
@@ -40,6 +40,54 @@ namespace N13310018
                 }
 
             }
+
+            foreach (Control c in panel1.Controls)
+            {
+                if (c is CheckBox)
+                {
+                    CheckBox temp = (CheckBox)c;
+                    if (temp.Checked ==true)
+                    {
+                        MessageBox.Show(temp.Text);
+                    }
+
+
+
+                }
+
+            }
+            foreach (Control c in panel3.Controls)
+            {
+                if (c is CheckBox)
+                {
+                    CheckBox temp = (CheckBox)c;
+                    if (temp.Checked ==true)
+                    {
+                        MessageBox.Show(temp.Text);
+                    }
+
+
+
+                }
+
+            }
+            foreach (Control c in panel4.Controls)
+            {
+                if (c is CheckBox)
+                {
+                    CheckBox temp = (CheckBox)c;
+                    if (temp.Checked ==true)
+                    {
+                        MessageBox.Show(temp.Text);
+                    }
+
+
+
+                }
+
+            }
+
+
 
         }
     }
